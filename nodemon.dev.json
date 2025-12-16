@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "app",
+    "components",
+    "lib",
+    "models",
+    "store",
+    "next.config.ts",
+    "tsconfig.json"
+  ],
+  "ignore": [
+    ".next",
+    "node_modules",
+    ".git"
+  ],
+  "ext": "ts,tsx,js,jsx,json",
+  "exec": "next dev --turbopack",
+  "signal": "SIGINT"
+}
+
